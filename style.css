@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(land.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.cityinput{
+   height: 50px;
+   width: 200px;
+    border-radius: 30px;
+    text-align: center;
+}
+.cityinput::placeholder{
+    color: brown;
+    text-align: center;
+    font-family: "Tektur", sans-serif;
+}
+.btn{
+    background-color: #669BBC;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.weatherform{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 10rem;
+}
+.card{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.card-style{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+   
+}
+.h1{
+    color: black;
+    margin-top: 1rem;
+    font-family: "Teko", sans-serif;
+    font-size: 35px;
+    
+}
+.p1{
+    color: black;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+  
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.p2{
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+}
+.p3{
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+}
+.p4{
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+}
